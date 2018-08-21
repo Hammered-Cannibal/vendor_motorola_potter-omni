@@ -936,6 +936,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/motorola/potter/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/motorola/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libskia.so:system/vendor/lib/libskia.so \
     vendor/motorola/potter/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/potter/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/motorola/potter/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
@@ -1196,6 +1197,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libskia.so:system/vendor/lib64/libskia.so \
     vendor/motorola/potter/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/potter/proprietary/vendor/lib/motcamera.device@1.0-impl.so:/system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:/system/vendor/lib/motorola.hardware.camera.device@1.0.so \
@@ -1212,8 +1214,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libhui.so:system/vendor/lib64/libhui.so \
+    vendor/motorola/potter/proprietary/lib64/android.hardware.gnss@8.0.so:system/lib64/android.hardware.gnss@8.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libux.so:system/vendor/lib64/libux.so \
-    vendor/motorola/potter/proprietary/lib64/android.hardware.gnss@8.0.so:system/lib64/android.hardware.gnss@8.0.so
+    vendor/motorola/potter/proprietary/lib/libcamera2ndk.so:/system/lib/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so
 
 PRODUCT_PACKAGES += \
     TimeService \
