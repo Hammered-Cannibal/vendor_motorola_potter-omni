@@ -1236,6 +1236,8 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
+    ims \
+    imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
@@ -1254,6 +1256,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
-    QtiTelephonyService
+    QtiTelephonyService \
+    CNEService
 
 
