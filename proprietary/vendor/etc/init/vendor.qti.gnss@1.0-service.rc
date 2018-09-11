@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
 service vendor.qti_gnss_service /vendor/bin/hw/vendor.qti.gnss@1.0-service
     class main
+=======
+service qti_gnss_service /vendor/bin/hw/vendor.qti.gnss@1.0-service
+    class hal
+>>>>>>> 72a833f... potter: update GPS blobs to P
     user gps
     group system gps radio
