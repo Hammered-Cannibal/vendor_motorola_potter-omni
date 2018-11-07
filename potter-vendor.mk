@@ -1240,6 +1240,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     imscmlibrary \
     com.qualcomm.location \
+    ims \
     qcrilmsgtunnel \
     izat.xt.srv \
     atfwd \
