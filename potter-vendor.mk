@@ -1260,7 +1260,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleCS47L35 \
     QtiTelephonyService \
     CNEService \
-    libbtnv \
-    MotCamera
+    libbtnv
 
 
